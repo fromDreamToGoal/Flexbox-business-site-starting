@@ -35,6 +35,7 @@ header h1 {
 .baner h2 {
     text-align: center;
     color: azure;
+    font-size: 2.5rem;
 }
 
 .content {
