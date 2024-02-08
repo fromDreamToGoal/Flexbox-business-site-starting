@@ -4,6 +4,14 @@ font-family: 'Bebas Neue', sans-serif;
 font-family: 'Rubik', sans-serif; */
 
 /* Header section */
+h1, h2 {
+    font-family: 'Bebas Neue';
+}
+
+h4, p {
+    font-family: 'Rubik';
+}
+
 
 header h1 {
     font-family: 'Bebas Neue';
@@ -78,6 +86,9 @@ header h1 {
 
 
 /* Section partners  */
+#ic {
+    height: 190px;
+}
 
 .partners {
     background-image: url(resources/images/background-pendolino.jpg);
@@ -87,6 +98,7 @@ header h1 {
 }
 
 .partners h2 {
+    padding-top: 2rem;
     text-align: center;
     font-size: 3rem;
     color: white;
