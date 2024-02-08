@@ -3,6 +3,8 @@
 font-family: 'Bebas Neue', sans-serif;
 font-family: 'Rubik', sans-serif; */
 
+/* Header section */
+
 header h1 {
     font-family: 'Bebas Neue';
     text-align: center;
@@ -19,6 +21,8 @@ header h1 {
     color: rgb(55, 41, 38);
     font-size: 2rem;
 }
+
+/* Main baner */
 
 .baner {
     display: flex;
@@ -42,6 +46,8 @@ header h1 {
     background-color: hsla(56, 82%, 49%, 0.753);
     width: 100%;
 }
+
+/* Section services */
 
 .containers {
   display: flex;
@@ -68,4 +74,29 @@ header h1 {
 .services h2 {
     text-align: center;
     font-size: 3rem;
+}
+
+
+/* Section partners  */
+
+.partners {
+    background-image: url(resources/images/background-pendolino.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partner-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.box {
+    width: 400px;
+    background-color: azure;
+}
+
+.box img {
+    width: 100%;
 }
