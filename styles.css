@@ -117,3 +117,10 @@ header h1 {
 .box img {
     width: 100%;
 }
+
+/* contact section  */
+
+.contact-box {
+    text-align: center;
+    font-size:x-large;
+}
